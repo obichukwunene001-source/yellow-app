@@ -2,6 +2,8 @@ import Pricing from "../pages/Pricing";
 import What from "../pages/What";
 import Globalbrands from "../pages/Globalbrands";
 import Footer from "../pages/Footer";
+import yellow from '../assets/yellow.jpg'
+import tshirt from '../assets/tshirt.jpg'
 const Home = () => {
 
   return (
@@ -20,8 +22,8 @@ const Home = () => {
           </div>
 
           <div className="mt-10 lg:mt-0 relative flex justify-center">
-            <img src="/src/assets/yellow.jpg" alt="Hero Image" className=" w-[250px] h-[340px] lg:w-[380px] lg:h-[520px] object-cover rounded-2xl shadow-sm "/>
-            <img src="/src/assets/tshirt.jpg" alt="Accent Image" className="absolute right-5  -top-6 lg:-right-6  md:right-55 w-20 h-20 lg:w-36 lg:h-36 object-cover rounded-2xl shadow-sm border-2 border-yellow-600"/>
+            <img src={yellow} alt="Hero Image" className=" w-[250px] h-[340px] lg:w-[380px] lg:h-[520px] object-cover rounded-2xl shadow-sm "/>
+            <img src={tshirt} alt="Accent Image" className="absolute right-5  -top-6 lg:-right-6  md:right-55 w-20 h-20 lg:w-36 lg:h-36 object-cover rounded-2xl shadow-sm border-2 border-yellow-600"/>
           </div>
         </div>
       </div>
